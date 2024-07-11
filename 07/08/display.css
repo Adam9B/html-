@@ -1,0 +1,28 @@
+h1,
+h2,
+div,
+span,
+p,
+a,
+section {
+    border: 1px solid color purple;
+    background-color: rgb(16, 162, 199);
+    text-align: center;
+}
+
+.block {
+    display: block;
+
+}
+
+.disappear {
+    /* disparition de l'élement  */
+    /* dans le flux de la page */
+    display: none;
+}
+
+.inline {
+    /* ne prend plus toute la largeur de la page */
+    display: inline;
+    
+}

@@ -1,0 +1,45 @@
+
+body{
+    margin: auto;
+    padding: auto;
+}
+
+table {
+    border: solid black 2px;
+    padding: 15px;
+    width: 450px;
+    border-collapse: collapse;
+    height: 20px;
+}
+
+tr{
+    border: solid 1px;
+    height: 29px;
+    border-color: #979797;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+.gris {
+    background-color: #b4b0b0;
+}
+
+.blanc {
+    background-color: white;
+}
+
+.noir{
+    background-color: black;
+}
+
+.bleu{
+    background-color: blue;
+}
+.green {
+    background-color: green;
+    border: 1px solid;
+    border-color: #7e7e7e;
+}
+

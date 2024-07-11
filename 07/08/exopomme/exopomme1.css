@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(39, 241, 39, 0.705);
+}
+
+.positionglobale {
+    display: flex;
+    justify-content: center;
+}
+
+.fondblanc {
+    background-color: white;
+    width: 700px;
+    height: 1040px;
+
+}
+
+.imageposition {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
+a,
+nav {
+    border-right: solid 3px white;
+    font-size: large;
+    display: flex;
+}
+
+nav {
+    background-color: rgb(69, 241, 69);
+}
+
+a {
+    padding: 2px 30px;
+}
+
+.imgsurlecoté {
+    padding: 30px;
+}
+
+.exterieur {
+    display: flex;
+}
+
+.interieur {
+    width: 500px;
+    padding-left: 10px;
+}
+
+h1{   
+    background: url(img/little_apple.gif) no-repeat left bottom;
+    width: 500px;
+    border-bottom: solid 1px green;
+    padding: 0px 0px 0px 30px;
+    color: rgb(54, 194, 54);
+}
+
+h2{
+    width: 500px;
+    border-bottom: solid 1px green;
+    padding: 0px 0px 0px 15px;
+    color: rgb(54, 194, 54);
+}

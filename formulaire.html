@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire en html</title>
+</head>
+<body>
+    <form>
+        <label for="">
+            pseudonyme
+            <input type="texte" id="pseudo" name="pseudo" placeholder="votre pseudo..." required>
+        </label>
+<br>
+        <label for="mdp">mot de passe</label>
+        <input type="password" id="mdp" placeholder="mot de passe" required>
+<br>
+        <label for="email">email</label>
+        <input type="file" id="email" name="votre email">
+<br>
+        <label for="photo">photo</label>    
+        <input type="file" id="photo" name="photo"> 
+        <br>
+        <label for="q1">quelle destination de vacances choississez-vous ?</label>
+        <input type="checkbox" id="q1" name="answer01">Tunisie
+        <input type="checkbox" id="q1" name="answer02" checked>Malaisie
+        <input type="checkbox" id="q1" name="answer03">Algérie
+
+        <br>
+
+        <label for="q2">qui seront vos partenaires de voyage ?</label>
+        <input type="radio" id="q2" name="answer04">seul
+        <input type="radio" id="q2" name="answer05" checked>en famille
+        <input type="radio" id="q2" name="answer06">entre amis
+<br>
+        <label for="comments">commentaire</label>
+        <textarea name="comments" id="comments"></textarea>
+<br>
+
+        <input type="submit" name="submission" value="Envoyer" >
+    </form>
+</body>
+</html>

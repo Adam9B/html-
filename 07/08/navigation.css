@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    background-color: rgb(255, 73, 73);
+    color: bisque;
+    padding: 10px 0;
+
+}
+
+nav{
+    padding: 15px;
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    justify-content: ;
+    /* justify-content, align-items...
+    ne sont utilisables qu'avec le display:flex: ;
+    (notion flexbox) */
+}
+
+*{
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid  rgb(255, 73, 73);
+    border-radius: 15px;
+    background-color:  rgb(255, 73, 73);
+    padding: 5px;
+
+}
+
+a:hover{
+    background-color: azure;
+    color: brown;
+    transition-duration: 500ms ;
+}

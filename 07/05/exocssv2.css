@@ -1,0 +1,83 @@
+header {
+    background-color:rgba(210,180,140,255);
+    height: 60px;
+    text-align: center;
+    margin: 0% 10%;
+    padding-top: 12px;
+}
+
+.a {
+    background-color: rgba(128,128,128,255);
+    text-align: center;
+    margin: 0% 10%;
+    padding-top: 10px;
+    height: 30px;
+}
+
+table {
+    margin: 0% 10%;
+    width: 80%;
+    border:  6px solid;
+    border-color:rgba(175,238,238,255);
+    border-bottom:  15px solid;
+    border-bottom-color: rgba(175,238,238,255);
+}
+/* [d'ici jusqu'au prochain commentaire c'est 
+l'exo float et pour les deux autres lignes c'est la 
+même chose j'ai juste la flemme de la faire. */
+.or{
+    text-align: center;
+    background-color: rgba(255,218,185,255);
+    padding: 50px;
+    float: left;
+}
+
+.ore{
+    text-align: center;
+    background-color: rgba(255,218,185,255);
+    padding: 50px;
+}
+
+
+
+.bleu {
+    text-align: center;
+    background-color: rgba(122,158,177,255);
+    padding: 50px;
+}
+
+.bleure{
+    text-align: center;
+    background-color: rgba(122,158,177,255);
+    padding: 50px;
+    float: right;
+}
+/* ICI ] */
+footer {
+    background-color:rgba(192,192,192,255);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+    height: 50px;
+}
+
+.bleumarine {
+    background-color: rgba(65,88,101,255);
+    text-align: center;
+    padding: 50px;
+}
+
+.jaune {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255,225,179,255);
+}
+
+td, div, header,footer {
+    color: white;
+}
+
+#ligne {
+    float: left;
+}
